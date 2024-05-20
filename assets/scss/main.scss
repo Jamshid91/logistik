@@ -1041,6 +1041,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
+            cursor: pointer;
           }
        }
 
@@ -1083,6 +1084,10 @@ body {
             height: 32px;
             z-index: 3;
             background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
           }
           .next {
             right: 0;
@@ -1116,6 +1121,7 @@ body {
         background: #fff;
         white-space: nowrap;
         margin-top: 16px;
+        cursor: pointer;
         svg {
           margin-right: 16px;
         }
