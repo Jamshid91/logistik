@@ -715,6 +715,7 @@ main .block4 .block4-item {
   transition: 0.1s all;
   min-height: 159px;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 main .block4 .block4-item svg {
   position: absolute;
