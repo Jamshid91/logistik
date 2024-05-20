@@ -9,7 +9,8 @@ window.addEventListener('click', (e) => {
         setTimeout(() => {
           popup.classList.add('d-none');
           body.classList.remove('bodyStopScroll')
-          popup.children[0].classList.remove('popUpHide')
+          popup.children[0].classList.remove('popUpHide');
+          location.reload();
         }, 450);
     }
     })
@@ -22,6 +23,7 @@ popUp_close.forEach(close => {
             close.parentElement.parentElement.classList.add('d-none');
             body.classList.remove('bodyStopScroll')
             close.parentElement.classList.remove('popUpHide')
+            location.reload();
           }, 450);
     })
 });

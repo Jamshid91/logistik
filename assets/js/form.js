@@ -35,7 +35,7 @@ submit_btn.addEventListener('click', () => {
     successPhone = user_phone.nextElementSibling.classList;
 
     if(successName == 'success' && successPhone == 'success') {
-        submit_btn.type = 'submit'
+        popUpThanks.classList.remove('d-none');
     }
 })
 
@@ -75,7 +75,7 @@ submit_btn2.addEventListener('click', () => {
         successEmail = user_email.nextElementSibling.classList;
 
     if(successName2 == 'success' && successEmail == 'success' && successText == 'success') {
-        submit_btn.type = 'submit'
+        popUpThanks.classList.remove('d-none');
     }
 
 
