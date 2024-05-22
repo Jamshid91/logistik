@@ -1412,6 +1412,15 @@ footer .footer-bottom {
   }
 }
 @media (max-width: 767px) {
+  main .block1 {
+    background-image: url(../img/png/block1-m.png);
+  }
+  main .block1 .block1-text {
+    width: 80%;
+  }
+  main .block1 .block1-text:last-child {
+    width: 70%;
+  }
   main .block4 {
     margin-top: 48px;
   }

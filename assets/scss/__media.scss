@@ -240,6 +240,15 @@
 
 @media (max-width: 767px) {
   main {
+    .block1 {
+      background-image: url(../img/png/block1-m.png);
+      .block1-text {
+        width: 80%;
+        &:last-child {
+          width: 70%;
+        }
+      }
+    }
     .block4 {
       margin-top: 48px;
       .swiper-block4 {
