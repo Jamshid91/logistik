@@ -909,6 +909,7 @@ footer .hh-link {
   border-radius: 50px;
   background: #E51017;
   margin-top: 18px;
+  white-space: nowrap;
 }
 footer .hh-link .icon {
   width: 28px;
